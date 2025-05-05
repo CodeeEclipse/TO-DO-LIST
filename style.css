@@ -1,0 +1,40 @@
+body{
+    margin: 0vh;
+    padding: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(39, 3, 71);
+}
+
+.CONTAINER{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color:#ed2c0a;
+    height: 50vh;
+    width: 50vw;
+    box-shadow: 4px 5px 6px;
+    text-shadow: 2px 2px 3px;
+    padding: 10vh;
+    text-align: center;
+    text-decoration:underline;
+}
+input[id="inputfield"]{
+    padding: 2px;
+    background-color: #2908e8;
+    font-weight: 800;
+    height:25px;
+    width:250px;
+    font-size: larger;
+}
+button{
+    background-color:#c3ed0a;
+    font-weight: 900;
+    height:40px;
+    width:100px;
+}
+.task.completed {
+    text-decoration: line-through;
+    color: gray;
+}
